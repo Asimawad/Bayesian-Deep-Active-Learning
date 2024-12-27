@@ -77,7 +77,8 @@ Explore the trade-offs between training with more epochs versus more labeled exa
 - **Results**:
   - **Accuracy**: Rapid improvement in test accuracy initially, followed by diminishing returns as epochs increase.
   - **NLL**: Significant drop with early epochs, stabilizing with minimal gains as epochs increase.
-  - **Plot**: ![Test Accuracy vs. Epochs](results/5_labelled_ex_with_varying_no_of_epochs.png).
+  - **Plot**: 
+![Test Accuracy vs. Epochs](results/5_labelled_ex_with_varying_no_of_epochs.png).
 
 ---
 
@@ -88,7 +89,8 @@ Explore the trade-offs between training with more epochs versus more labeled exa
 - **Results**:
   - **Accuracy**: Gradual improvement as the labeled pool increases, reaching >95% with 512 examples per class.
   - **NLL**: Decreases consistently with more labeled data, indicating better uncertainty calibration.
-  - **Plot**: [Test Accuracy vs. Labeled Examples](results/10_epochs_with_increasing_labeled_examples.png).
+  - **Plot**: 
+![Test Accuracy vs. Labeled Examples](results/10_epochs_with_increasing_labeled_examples.png).
 
 ---
 
@@ -100,7 +102,8 @@ Explore the trade-offs between training with more epochs versus more labeled exa
 - **Results**:
   - **Accuracy**: High test accuracy achieved efficiently with fewer epochs for larger datasets.
   - **Confidence Intervals**: Narrower for larger labeled pools, indicating stability.
-  - **Plot**: [Learning Curve with Heuristic Active Learning](results/heuristic_al.png).
+  - **Plot**: 
+![Learning Curve with Heuristic Active Learning](results/heuristic_al.png).
 
 ---
 
