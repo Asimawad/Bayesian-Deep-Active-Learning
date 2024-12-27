@@ -77,7 +77,7 @@ Explore the trade-offs between training with more epochs versus more labeled exa
 - **Results**:
   - **Accuracy**: Rapid improvement in test accuracy initially, followed by diminishing returns as epochs increase.
   - **NLL**: Significant drop with early epochs, stabilizing with minimal gains as epochs increase.
-  - **Plot**: [Test Accuracy vs. Epochs](results/5_labelled_ex_with_varying_no_of_epochs.png).
+  - **Plot**: ![Test Accuracy vs. Epochs](results/5_labelled_ex_with_varying_no_of_epochs.png).
 
 ---
 
